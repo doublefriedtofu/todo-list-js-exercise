@@ -5,7 +5,7 @@
 // Create a new task by adding to the arrays
 // A new task will be created as incomplete
 
-function newTask(title, description) {
+const newTask = (title, description) => {
   const task = {
     title: title,
     description: description,
@@ -20,7 +20,7 @@ function newTask(title, description) {
     }
   };
   return task;
-}
+};
 
 // DRIVER CODE BELOW
 
